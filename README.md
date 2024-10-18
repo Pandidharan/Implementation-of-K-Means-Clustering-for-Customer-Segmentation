@@ -8,15 +8,25 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the necessary packages using import statement.
+1. **Import Libraries**: Import necessary libraries, such as `pandas` for data manipulation and `matplotlib` for plotting.
 
-2.Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
+2. **Load the Dataset**: Load the dataset `Mall_Customers.csv` into a DataFrame using `pandas` and check the first few rows and information about the dataset.
 
-3.Import KMeans and use for loop to cluster the data.
+3. **Check for Missing Values**: Use `isnull().sum()` to check if there are any missing values in the dataset.
 
-4.Predict the cluster and plot data graphs.
+4. **Initialize WCSS List**: Create an empty list `wcss` to store the Within-Cluster Sum of Squares (WCSS) values for different numbers of clusters.
 
-5.Print the outputs and end the program
+5. **Apply K-Means for Different Clusters**: Loop through cluster numbers from 1 to 10, apply K-Means clustering for each value of `n_clusters`, and calculate WCSS using `kmeans.inertia_`. Append the WCSS values to the `wcss` list.
+
+6. **Plot the Elbow Method**: Plot the WCSS values against the number of clusters to use the Elbow Method for identifying the optimal number of clusters.
+
+7. **Fit K-Means with 5 Clusters**: Apply K-Means clustering with `n_clusters=5` and fit the model to the selected features of the dataset (`Annual Income` and `Spending Score`).
+
+8. **Predict Cluster Labels**: Use the trained K-Means model to predict the cluster labels for each data point in the dataset.
+
+9. **Assign Cluster Labels to Data**: Create a new column `cluster` in the dataset and store the predicted cluster labels for each customer.
+
+10. **Visualize the Clusters**: Use `matplotlib` to plot the customers based on their annual income and spending score, assigning different colors to each cluster and displaying the plot with legends and titles.
 
 ## Program:
 ```
