@@ -80,24 +80,16 @@ plt.title("Customer Segments")
 ```
 
 ## Output:
-## Dataset:
-
-![278795578-afbcb3f0-41a0-4e9e-bafd-a0fafb3334c0](https://github.com/charumathiramesh/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/120204455/ed5b0fe2-4e98-43bd-9b21-f3468d493335)
-
-## Dataset information:
-![278795602-253e3aeb-6850-4bfd-b39b-9e82bf90d834](https://github.com/charumathiramesh/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/120204455/8d4aa9d8-45dd-4539-8271-f7da5d00dc99)
-![278795605-b654a77d-774e-4cc0-9396-4353a521f7cc](https://github.com/charumathiramesh/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/120204455/f3c984b3-7e9b-4852-9552-a4026fbfd52d)
-
-
-
 
 ## Elbow method graph (wcss vs each iteration):
-![278795631-c7b3a69a-089c-4ff3-b253-9a2a0b6e0daa](https://github.com/charumathiramesh/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/120204455/65a43453-3ac2-4bea-8187-97cb6cc060d1)
+![image](https://github.com/user-attachments/assets/90b9d9ca-6cfc-42d1-83ac-625b8a5a83c7)
 
+## Predicted Values:
+![image](https://github.com/user-attachments/assets/43c8d1c6-c3f8-4c13-8eac-1db5b19097e7)
 
 ## Cluster represnting customer segments-graph:
 
-![278795641-c898bcee-13f7-49d2-918c-dc151a9702f3](https://github.com/charumathiramesh/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/120204455/5796e66a-5977-4d88-857d-822ee784388d)
+![image](https://github.com/user-attachments/assets/9e96f7ef-a3c4-4e2d-aa4a-87e92b874554)
 
 
 ## Result:
